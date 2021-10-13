@@ -1,0 +1,7 @@
+{
+  "name": "Rexplorer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
