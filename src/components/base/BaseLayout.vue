@@ -6,6 +6,9 @@
                     <IonBackButton :default-href="pageDefaultBackLink"></IonBackButton>
                 </IonButtons>
 				<IonTitle> {{ pageTitle }}</IonTitle>
+				<IonButtons slot="end">
+					<slot name="actions-end"></slot>
+				</IonButtons>
 			</IonToolbar>
 		</IonHeader>
 		<IonContent>
